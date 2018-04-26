@@ -1,1 +1,1 @@
-Fixes the functionality of right clicking on a file to add a new file or folder in vscode
+Ever tried to right click on a file in vscode to use the option "New File" or "New Folder"?  Well you can't do that in vscode.  This extention fixes that.
