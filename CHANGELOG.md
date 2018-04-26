@@ -6,3 +6,6 @@ All notable changes to the "rightclickfix" extension will be documented in this 
 
 ## 1.0.1
 - Removed extraneous code
+
+## 1.0.2
+- Silenced warning
