@@ -3,7 +3,11 @@
     "displayName": "RightClickFix",
     "description": "Fixes the functionality of right clicking on a file to add a new file or folder",
     "version": "1.0.0",
-    "publisher": "CodySchrank",
+    "publisher": "codyschrank",
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/CodySchrank/RightClickFix"
+    },
     "engines": {
         "vscode": "^1.22.0"
     },
