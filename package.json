@@ -14,38 +14,33 @@
     "categories": [
         "Other"
     ],
-    "activationEvents": [
-        "onCommand:rcf.newFile",
-        "onCommand:rcf.newFolder"
-    ],
-    "main": "./out/extension",
     "contributes": {
         "menus": {
             "explorer/context": [{
-                "command": "rcf.newFile",
+                "command": "explorer.newFile",
                 "group": "navigation",
                 "when": "filesExplorerFocus && !explorerResourceIsFolder"
             },{
-                "command": "rcf.newFolder",
+                "command": "explorer.newFolder",
                 "group": "navigation",
                 "when": "filesExplorerFocus && !explorerResourceIsFolder"
             }],
             "commandPalette": [{
-                "command": "rcf.newFile",
+                "command": "explorer.newFile",
                 "when": "false"
             },{
-                "command": "rcf.newFolder",
+                "command": "explorer.newFolder",
                 "when": "false"
             }]
 
         },
         "commands": [
             {
-                "command": "rcf.newFile",
+                "command": "explorer.newFile",
                 "title": "New File"
             },
             {
-                "command": "rcf.newFolder",
+                "command": "explorer.newFolder",
                 "title": "New Folder"
             }
         ]
