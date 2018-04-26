@@ -2,7 +2,7 @@
     "name": "rightclickfix",
     "displayName": "RightClickFix",
     "description": "Fixes the functionality of right clicking on a file to add a new file or folder",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "codyschrank",
     "repository": {
         "type": "github",
@@ -16,23 +16,28 @@
     ],
     "contributes": {
         "menus": {
-            "explorer/context": [{
-                "command": "explorer.newFile",
-                "group": "navigation",
-                "when": "filesExplorerFocus && !explorerResourceIsFolder"
-            },{
-                "command": "explorer.newFolder",
-                "group": "navigation",
-                "when": "filesExplorerFocus && !explorerResourceIsFolder"
-            }],
-            "commandPalette": [{
-                "command": "explorer.newFile",
-                "when": "false"
-            },{
-                "command": "explorer.newFolder",
-                "when": "false"
-            }]
-
+            "explorer/context": [
+                {
+                    "command": "explorer.newFile",
+                    "group": "navigation",
+                    "when": "filesExplorerFocus && !explorerResourceIsFolder"
+                },
+                {
+                    "command": "explorer.newFolder",
+                    "group": "navigation",
+                    "when": "filesExplorerFocus && !explorerResourceIsFolder"
+                }
+            ],
+            "commandPalette": [
+                {
+                    "command": "explorer.newFile",
+                    "when": "false"
+                },
+                {
+                    "command": "explorer.newFolder",
+                    "when": "false"
+                }
+            ]
         },
         "commands": [
             {
