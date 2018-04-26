@@ -16,8 +16,7 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     context.subscriptions.push(newFile);
-
-
+    
 
     let newFolder = vscode.commands.registerCommand('rcf.newFolder', () => {
         // The code you place here will be executed every time your command is executed
